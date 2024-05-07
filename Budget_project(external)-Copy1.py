@@ -1,21 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 import tkcalendar as tkc
 from tkcalendar import DateEntry
 import tkinter as tk
 import psycopg2
 
-
-# In[ ]:
-
-
-import tkinter as tk
-from tkcalendar import DateEntry  
-import psycopg2 
 
 def insert_data():
     # Retrieves data from input fields
@@ -107,14 +94,6 @@ status_label.grid(row=6, column=0, columnspan=2)
 
 root.mainloop()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
